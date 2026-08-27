@@ -11,7 +11,7 @@ They have internal documentation in markdown in the data/ folder (courtesy of Ge
 
 
 The RAG system uses Query-Rewriting to ensure that the RAG process is not wasting time on vague questions.
-It also uses CRAG (Corrective RAG), checking if the output is grounded in the data and answers the user's question. In addition the RAG system also utilizes vector database document similarity search. The LLM is lfm2.5-thinking:1.2B, the vector database is Chroma.
+It also uses CRAG (Corrective RAG), checking if the output is grounded in the data and answers the user's question. In addition the RAG system also utilizes vector database document similarity search. The LLM is lfm2.5-thinking:1.2B, the vector database is Chroma. The AI was prompted to talk like a caveman, which is a technique used to use less tokens, and told not to make mistakes which can increase the accuracy.
 
 Tools:
 - get_datetime
