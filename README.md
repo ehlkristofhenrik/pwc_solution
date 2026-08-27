@@ -7,6 +7,9 @@ They have internal documentation in markdown in the data/ folder (courtesy of Ge
 
 ## Architecture
 
+<img width="422" height="467" alt="diagram" src="https://github.com/user-attachments/assets/f5cdfa2e-977f-4f47-9ea7-b74159d55a47" />
+
+
 The RAG system uses Query-Rewriting to ensure that the RAG process is not wasting time on vague questions.
 It also uses CRAG (Corrective RAG), checking if the output is grounded in the data and answers the user's question. In addition the RAG system also utilizes vector database document similarity search. The LLM is lfm2.5-thinking:1.2B, the vector database is Chroma.
 
