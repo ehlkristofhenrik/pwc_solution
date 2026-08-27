@@ -180,7 +180,7 @@ def main():
     #
     # Streamlit
     #
-    st.title("RAG-NAROK")
+    st.title("Fictive Inc. RAG")
     query = st.text_input("Query", key='query')
     if st.button("Run"):
         try:
